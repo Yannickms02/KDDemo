@@ -4,6 +4,8 @@ module com.example.kdtreedemo {
 
     requires org.controlsfx.controls;
     requires org.kordamp.ikonli.javafx;
+    requires gs.core;
+    requires gs.ui.javafx;
 
     opens com.example.kdtreedemo to javafx.fxml;
     exports com.example.kdtreedemo;
